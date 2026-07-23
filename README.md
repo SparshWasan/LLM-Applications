@@ -17,6 +17,7 @@ Collection of Basic Python LLM applications built with the official **Google Gem
   - [7. Study Assistant](#7-study-assistant)
   - [8. Tone Modifier](#8-tone-modifier)
   - [9. Interactive Language Translator](#9-interactive-language-translator)
+  - [10. Interactive Question Generator](#10-interactive-question-generator)
 - [Tech Stack & Prerequisites](#-tech-stack--prerequisites)
 - [Getting Started](#-getting-started)
 - [Usage Guide](#-usage-guide)
@@ -32,7 +33,7 @@ This repository contains practice applications designed to learn different patte
 - **Basic Prompting**: Direct task execution via user prompts.
 - **System Instructions**: Configuring system-level behavior using `google.genai.types.GenerateContentConfig`.
 - **Persona & Tone Switching**: Adjusting model responses according to user roles, tones, and target audiences.
-
+- **Gradio UI**: Using Gradio to make the application interactive.
 ---
 
 ## 🛠 Applications Breakdown
@@ -90,8 +91,13 @@ This repository contains practice applications designed to learn different patte
 - **Description**: Translates input text into Hindi, Telugu, or French using custon system instructions and radio buttons for language selection.
 - **Key Concepts**: UI implementation using Gradio to make the application interactive.
 - **Model**: `gemini-2.5-flash`
----
 
+### 10. Interactive Question Generator
+- **Path**: `Interactive Question Generator/app.py`
+- **Description**: Generates questions based on the input text using custom system instructions and radio buttons for question type selection.
+- **Key Concepts**: UI implementation using Gradio to make the application interactive.
+- **Model**: `gemini-2.5-flash`
+---
 ## 💻 Tech Stack & Prerequisites
 
 - **Python**: 3.9 or higher
@@ -176,6 +182,7 @@ LLM Applications/
 │    └── app.py                                   # Direct tone transformation
 ├── Interactive Language Translator/
 │    └── app.py                                   # Interactive language translator
-
+├── Interactive Question Generator/
+│    └── app.py                                   # Interactive question generator
 ```
 ---
