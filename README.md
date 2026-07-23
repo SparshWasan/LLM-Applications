@@ -16,6 +16,7 @@ Collection of Basic Python LLM applications built with the official **Google Gem
   - [6. Question Generator](#6-question-generator)
   - [7. Study Assistant](#7-study-assistant)
   - [8. Tone Modifier](#8-tone-modifier)
+  - [9. Interactive Language Translator](#9-interactive-language-translator)
 - [Tech Stack & Prerequisites](#-tech-stack--prerequisites)
 - [Getting Started](#-getting-started)
 - [Usage Guide](#-usage-guide)
@@ -84,6 +85,11 @@ This repository contains practice applications designed to learn different patte
 - **Key Concepts**: Zero-shot tone modification.
 - **Model**: `gemini-2.5-flash`
 
+### 9. Interactive Language Translator
+- **Path**: `Interactive Language Translator/app.py`
+- **Description**: Translates input text into Hindi, Telugu, or French using custon system instructions and radio buttons for language selection.
+- **Key Concepts**: UI implementation using Gradio to make the application interactive.
+- **Model**: `gemini-2.5-flash`
 ---
 
 ## 💻 Tech Stack & Prerequisites
@@ -168,5 +174,8 @@ LLM Applications/
 │   └── app.py                                   # General AI study companion
 ├── Tone Modifier/
 │    └── app.py                                   # Direct tone transformation
+├── Interactive Language Translator/
+│    └── app.py                                   # Interactive language translator
+
 ```
 ---
