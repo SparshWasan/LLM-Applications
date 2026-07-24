@@ -18,6 +18,7 @@ Collection of Basic Python LLM applications built with the official **Google Gem
   - [8. Tone Modifier](#8-tone-modifier)
   - [9. Interactive Language Translator](#9-interactive-language-translator)
   - [10. Interactive Question Generator](#10-interactive-question-generator)
+  - [11. Interactive Study Assistant](#11-interactive-study-assistant)
 - [Tech Stack & Prerequisites](#-tech-stack--prerequisites)
 - [Getting Started](#-getting-started)
 - [Usage Guide](#-usage-guide)
@@ -97,12 +98,19 @@ This repository contains practice applications designed to learn different patte
 - **Description**: Generates questions based on the input text using custom system instructions and radio buttons for question type selection.
 - **Key Concepts**: UI implementation using Gradio to make the application interactive.
 - **Model**: `gemini-2.5-flash`
+
+### 11. Interactive Study Assistant
+- **Path**: `Interactive Study Assistant/app.py`
+- **Description**: Explains complex concepts by adopting different teaching personas (e.g., **Friendly** with beginner-friendly analogies vs. **Academic** with formal university professor style).
+- **Key Concepts**: UI implementation using Gradio to make the application interactive.
+- **Model**: `gemini-2.5-flash`
 ---
 ## 💻 Tech Stack & Prerequisites
 
 - **Python**: 3.9 or higher
 - **SDK**: `google-genai` (Official Google GenAI SDK)
 - **Environment Management**: `python-dotenv`
+- **UI**: `gradio`
 - **LLM Engine**: Google Gemini API (`gemini-2.5-flash`)
 
 ---
@@ -117,7 +125,7 @@ cd "LLM Applications"
 
 ### 2. Install Dependencies
 ```bash
-pip install google-genai python-dotenv
+pip install google-genai python-dotenv gradio 
 ```
 
 ### 3. Setup Environment Variables
@@ -184,5 +192,7 @@ LLM Applications/
 │    └── app.py                                   # Interactive language translator
 ├── Interactive Question Generator/
 │    └── app.py                                   # Interactive question generator
+├── Interactive Study Assistant/
+│    └── app.py                                   # Interactive study assistant
 ```
 ---
