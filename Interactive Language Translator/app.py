@@ -37,7 +37,7 @@ demo = gr.Interface(
         gr.Radio(choices=list(languages.keys()), value="Hindi", label="Target Language")
     ],
     outputs = gr.Textbox(lines=10, label="Translated Output"),
-    title = "Interactive Lanaguage Translator",
+    title = "Interactive Language Translator",
     description="Translates the given text into specified language."
 )
 
