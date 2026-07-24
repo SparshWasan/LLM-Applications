@@ -38,7 +38,7 @@ demo = gr.Interface(
     ],
     outputs = gr.Textbox(lines=10, label="Translated Output"),
     title = "Interactive Language Translator",
-    description="Translates the given text into specified language."
+    description="In this project, let's build an Interactive Language Translator Application using Google Gemini API along with Gradio to translate the given text from English to different languages through a simple web interface."
 )
 
 demo.launch(server_name="0.0.0.0", root_path="/gradio", share=True)
