@@ -19,6 +19,7 @@ Collection of Basic Python LLM applications built with the official **Google Gem
   - [9. Interactive Language Translator](#9-interactive-language-translator)
   - [10. Interactive Question Generator](#10-interactive-question-generator)
   - [11. Interactive Study Assistant](#11-interactive-study-assistant)
+  - [12. Interactive Tone Translator](#12-interactive-tone-translator)
 - [Tech Stack & Prerequisites](#-tech-stack--prerequisites)
 - [Getting Started](#-getting-started)
 - [Usage Guide](#-usage-guide)
@@ -102,6 +103,12 @@ This repository contains practice applications designed to learn different patte
 ### 11. Interactive Study Assistant
 - **Path**: `Interactive Study Assistant/app.py`
 - **Description**: Explains complex concepts by adopting different teaching personas (e.g., **Friendly** with beginner-friendly analogies vs. **Academic** with formal university professor style).
+- **Key Concepts**: UI implementation using Gradio to make the application interactive.
+- **Model**: `gemini-2.5-flash`
+
+### 12. Interactive Tone Translator
+- **Path**: `Interactive Tone Translator/app.py`
+- **Description**: Re-writes input sentences into specific styles (**Formal** or **Casual**) using system-level instruction rules.
 - **Key Concepts**: UI implementation using Gradio to make the application interactive.
 - **Model**: `gemini-2.5-flash`
 ---
@@ -194,5 +201,7 @@ LLM Applications/
 │    └── app.py                                   # Interactive question generator
 ├── Interactive Study Assistant/
 │    └── app.py                                   # Interactive study assistant
+├── Interactive Tone Translator/
+│    └── app.py                                   # Interactive tone translator
 ```
 ---
